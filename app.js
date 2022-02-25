@@ -10,7 +10,6 @@ let sayi1,sayi2,sonuc,dogru=0,yanlis=0,islem;
     return Math.floor(Math.random() * (max - min + 1)) + min;
   }
 
-
 function yenisoru() {
     let liste = [
         "+" , "-", "/", "*"
@@ -26,14 +25,11 @@ function yenisoru() {
         }
     
     }
+    sonuc.value = "";
 }
 window.onload = function() {
     yenisoru();
 }
-
-
-
-
 function myFunction() {
     let cevap=0,s1,s2;
     s1 = Number(sayi1.textContent);
