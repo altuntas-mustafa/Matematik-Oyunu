@@ -13,13 +13,13 @@
     margin-left: 35vw;
 }
 .header {
-    width: 22vw;
+    width: 20vw;
     text-align: center;
     color:black;
     margin-left: 3.5vw;
     margin-top: 2vw;
     border: 2px solid white;
-    font-size: 1vw;
+    font-size: 0.8vw;
 }
 .islem-alanı {
     width: 11vw;
@@ -86,7 +86,4 @@
     display: inline;
     font-size: 2.5vw;
     background-color: red;
-}
-h1 {
-    font-size: 1.3vw;
 }
